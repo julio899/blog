@@ -4,13 +4,13 @@ email: jv@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hola Soy Julio Vinachi, este es un blog implementando con jekyll, espero que este pueda ser un lugar de apoyo en donde se encontraran apuntes y tips sobre optimizacion y mejores practicas
   en el desarrollo se software.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://julio899.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://julio899.github.io/blog/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: julio899
 github_username:  julio899
 
 # Build settings
-theme: minima
-# theme: jekyll-theme-merlot
+# theme: minima
+theme: jekyll-theme-merlot
 plugins:
   - jekyll-feed
