@@ -1,3 +1,66 @@
-theme: jekyll-theme-merlot
-url: https://julio899.github.io
-baseurl: '/blog'
+title: Notes of Julio899
+logo:  # you can add own logo.
+description: Passionate designer curating designs for new startups  and  founders  and crafts  beautiful user interfaces with love.
+baseurl: '/blog' # the subpath of your site, e.g. /blog
+url: https://julio899.github.io # the base hostname & protocol for your site, e.g. http://example.com
+
+
+# Author Settings
+author:
+  name: Julio Vinachi
+  image: '/assets/img/01.jpg'
+  job: Web Developer Full Stack
+  bio: Passionate making the ideas reality, improving everyday, trying always of use the good practice in software develop.
+  email: julio899@gmail.com
+
+
+# Contact links
+contact:
+  - name: Twitter
+    link: https://twitter.com/julio899
+  - name: Facebook
+    link: https://facebook.com/
+  - name: Instagram
+    link: https://instagram.com/
+
+
+# Comment Section (Disqus)
+disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
+
+
+# Google Analytics
+google-analytics: # add your identifier. For example UA-99631805-1.
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+  - jekyll/tagging
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag-page
+tag_permalink_style:  pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
