@@ -1,4 +1,3 @@
-# Welcome to Jekyll!
 title: Blog Apuntes de Julio899
 email: jv@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -10,7 +9,7 @@ twitter_username: julio899
 github_username:  julio899
 
 # Build settings
-# theme: minima
-theme: jekyll-theme-merlot
+theme: minima
+# theme: jekyll-theme-merlot
 plugins:
   - jekyll-feed
